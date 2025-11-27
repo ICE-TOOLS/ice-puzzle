@@ -35,7 +35,7 @@ To build and run this project, you will need:
     ```
 
 2.  **Configure CMake with Vcpkg and CUDA:**
-    Navigate to the project root directory (`c:\Users\ICEZERO\OneDrive\Desktop\puzzle`).
+    Navigate to the project root directory (`c:\Users\<YOURNAME>\OneDrive\Desktop\puzzle`).
     ```bash
     cmake -S . -B build -DCMAKE_TOOLCHAIN_FILE=C:/vcpkg/scripts/buildsystems/vcpkg.cmake -DCMAKE_BUILD_TYPE=Release -DUSE_CUDA=ON
     ```
@@ -53,7 +53,7 @@ To build and run this project, you will need:
 
 ## How to Run
 
-After a successful build, the executable `puzzle86.exe` will be located in `c:\Users\ICEZERO\OneDrive\Desktop\puzzle\build\Release\`.
+After a successful build, the executable `puzzle86.exe` will be located in `c:\Users\<YOURNAME>\OneDrive\Desktop\puzzle\build\Release\`.
 
 1.  **Navigate to the Release directory:**
     ```bash
